@@ -39,7 +39,7 @@ export default function Navbar() {
             <Link to="/details" className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${isDetails ? 'bg-indigo-50 text-indigo-700' : 'text-slate-600 hover:text-indigo-600 hover:bg-indigo-50/50'}`}>
               How It Works
             </Link>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="ml-3 px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-semibold shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] transition-all">
+            <a href="https://github.com/rohithgowda18/WaveSync-AI" target="_blank" rel="noopener noreferrer" className="ml-3 px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-semibold shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] transition-all">
               GitHub
             </a>
           </div>
